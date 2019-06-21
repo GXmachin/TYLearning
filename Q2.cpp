@@ -1,15 +1,15 @@
 // c++ standard libraries
 #include <iostream>
-#include <sstream> // string stream  standard library
-#include <string> //  c++ string library
 
 // using c++ namespace for cout and cin stream objects
 using namespace std;
 
-int main() {
-
+int main()
+{
 	// variable declaration
-	char user_char; int user_int; float user_float; string str;
+	char user_char;
+	int user_int; 
+	float user_float;
 
 	//user prompt
 	cout << "Please enter a character: ";
